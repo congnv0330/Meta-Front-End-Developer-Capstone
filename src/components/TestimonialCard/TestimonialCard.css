@@ -1,0 +1,31 @@
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 16px;
+  background-color: var(--color-white);
+  border-radius: 16px;
+}
+
+.testimonial-card img {
+  width: 128px;
+  margin: 0 auto 12px auto;
+  border-radius: 50%;
+}
+
+.testimonial-card h4 {
+  margin: 0 auto 12px auto;
+}
+
+.testimonial-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-primary-2);
+  margin-bottom: 12px;
+}
+
+.testimonial-card blockquote {
+  text-align: center;
+  margin: 0;
+}

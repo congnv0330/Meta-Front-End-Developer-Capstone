@@ -20,6 +20,11 @@
 }
 
 @media (min-width: 768px) {
+  .week-specials {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
   .week-specials-header {
     display: flex;
     justify-content: space-between;
@@ -28,11 +33,6 @@
 
   .week-specials-header h2 {
     margin-bottom: 0;
-  }
-
-  .week-specials {
-    padding-top: 32px;
-    padding-bottom: 32px;
   }
 
   .week-specials-container {
