@@ -1,4 +1,8 @@
-# VITE JS
+# LITTLE LEMON
+
+![Homepage](/screenshoot/home-desktop.png)
+
+![Homepage](/screenshoot/home-mobile.png)
 
 ## Installation
 
