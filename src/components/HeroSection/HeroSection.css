@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 16px;
+  padding-top: 8px;
   background-color: var(--color-primary-1);
   margin-bottom: 70px;
 }
@@ -46,7 +46,7 @@
 
 @media (min-width: 768px) {
   .hero {
-    padding-top: 40px;
+    padding-top: 32px;
   }
 
   .hero .container {

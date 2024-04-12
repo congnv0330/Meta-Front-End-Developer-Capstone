@@ -1,16 +1,17 @@
 .btn {
   display: inline-block;
   appearance: none;
-  padding: 0.5rem 1rem;
-  border-radius: 2rem;
+  padding: 8px 16px;
+  border-radius: 32px;
   background-color: var(--color-primary-2);
   color: var(--color-primary-1);
   cursor: pointer;
-  font-weight: bold;
-  border: 0.1875rem solid var(--color-primary-2);
+  font-weight: 800;
+  border: 1px solid var(--color-primary-2);
   transition: background, border, color 0.2s;
 }
 
+.btn:hover,
 .btn:active {
   background-color: var(--color-primary-1);
   border-color: var(--color-primary-1);

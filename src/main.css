@@ -17,7 +17,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
-  background-color: var(--color-secondary-3);
+  /* background-color: var(--color-secondary-3); */
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 h1, h2 {
   font-family: "Markazi Text", serif;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 h1 {

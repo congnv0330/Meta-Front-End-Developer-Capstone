@@ -1,5 +1,6 @@
 .header {
   background-color: var(--color-white);
+  border-bottom: 8px solid var(--color-primary-1);
 }
 
 .nav-bar {
