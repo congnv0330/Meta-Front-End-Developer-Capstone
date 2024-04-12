@@ -17,6 +17,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
+  background-color: var(--color-secondary-3);
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -37,6 +38,10 @@ h2 {
   font-size: 40px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 100%;
   padding-right: 16px;
@@ -47,6 +52,16 @@ h2 {
 
 .text-center {
   text-align: center;
+}
+
+#__app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
 }
 
 @media (min-width: 640px) {
