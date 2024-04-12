@@ -1,5 +1,15 @@
 @import 'modern-normalize/modern-normalize.css';
 
+:root {
+  --color-white: #FFF;
+  --color-primary-1: #495E57;
+  --color-primary-2: #F4CE14;
+  --color-secondary-1: #EE9972;
+  --color-secondary-2: #FBDABB;
+  --color-secondary-3: #EDEFEE;
+  --color-secondary-4: #333333;
+}
+
 body {
   font-family: Karla, sans-serif;
   font-weight: 400;
