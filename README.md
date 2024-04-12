@@ -1,8 +1,10 @@
 # LITTLE LEMON
 
-![Homepage](/screenshoot/home-desktop.png)
+### Desktop
+![Homepage](/screenshot/home-desktop.png)
 
-![Homepage](/screenshoot/home-mobile.png)
+### Mobile
+![Homepage](/screenshot/home-mobile.png)
 
 ## Installation
 
