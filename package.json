@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "test": "vitest --config ./vitest.config.js",
     "lint": "eslint --ext jsx,js --report-unused-disable-directives src/",
     "lint:fix": "eslint --fix --ext jsx,js --report-unused-disable-directives src/"
   },
@@ -16,6 +17,8 @@
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.10.2",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^15.0.1",
     "@types/react": "^18.2.77",
     "@types/react-dom": "^18.2.25",
     "@vitejs/plugin-react-swc": "^3.6.0",
@@ -28,7 +31,9 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^12.0.0",
+    "jsdom": "^24.0.0",
     "prettier": "^3.2.5",
-    "vite": "^5.2.8"
+    "vite": "^5.2.8",
+    "vitest": "^1.5.0"
   }
 }
