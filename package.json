@@ -12,8 +12,11 @@
     "lint:fix": "eslint --fix --ext jsx,js --report-unused-disable-directives src/"
   },
   "dependencies": {
+    "clsx": "^2.1.0",
+    "modern-normalize": "^2.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.10.2",
