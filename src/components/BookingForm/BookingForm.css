@@ -1,0 +1,19 @@
+.form-field:not(:first-child) {
+  margin-top: 16px;
+}
+
+.form-field:last-child {
+  text-align: center;
+}
+
+.form-field label {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form-field .error-message {
+  color: var(--color-secondary-1);
+  font-size: 12px;
+  margin-top: 4px;
+}
