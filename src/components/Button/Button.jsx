@@ -1,15 +1,14 @@
-import { forwardRef } from 'react';
+import { createElement, forwardRef } from 'react';
 import clsx from 'clsx';
 
 import './Button.css';
 
-export const Button = forwardRef(({ className, ...props }, ref) => {
-  return (
-    <button
-      ref={ref}
-      type="button"
-      className={clsx('btn', className)}
-      {...props}
-    />
-  );
-});
+export const Button = forwardRef(
+  ({ as = 'button', className, ...props }, ref) => {
+    return createElement(as, {
+      ref,
+      className: clsx('btn', className),
+      ...props,
+    });
+  },
+);
